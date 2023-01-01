@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "project id",
+  "private_key_id": "key",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nprivate key (will be a lot of random charactars and digits)\n-----END PRIVATE KEY-----\n",
+  "client_email": "email for google sheet",
+  "client_id": "client's id number",
+  "auth_uri": "share this email with your google spreadhset",
+  "token_uri": "web address of token",
+  "auth_provider_x509_cert_url": "url for provider cert",
+  "client_x509_cert_url": "url for client cert"
+}
