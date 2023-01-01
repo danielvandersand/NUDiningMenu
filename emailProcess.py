@@ -33,5 +33,4 @@ def email_new(x):
 if __name__ == '__main__':
     for i in creds.recipient:
         email_new(i)
-        # needs to sleep for 2 seconds because google spreadsheet API only allows 100 calls/min
-        time.sleep(2)
+        time.sleep(1)
